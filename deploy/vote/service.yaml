@@ -12,5 +12,5 @@ spec:
     targetPort: 30300
   selector:
     app: vote
-  type: nodeport
+  type: NodePort
 
