@@ -6,8 +6,8 @@ metadata:
   name: vote
 spec:
   ports:
-  - name: 32300-80
-    port: 32300
+  - name: 30300-80
+    port: 30300
     protocol: TCP
     targetPort: 80
   selector:
