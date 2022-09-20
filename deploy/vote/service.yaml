@@ -7,9 +7,9 @@ metadata:
 spec:
   ports:
   - name: 32300-80
-    port: 80
+    port: 32300
     protocol: TCP
-    targetPort: 32300
+    targetPort: 80
   selector:
     app: vote
   type: NodePort
