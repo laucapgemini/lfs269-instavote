@@ -3,13 +3,15 @@ kind: Service
 metadata:
   labels:
     app: vote
-  name: vote
+  name: vote2
   namespace: instavote
 spec:
   ports:
-  - port: 80
+  - name: "80"
+    nodePort: 30300
+    port: 80
     protocol: TCP
-    targetPort: 30300
+    targetPort: 80
   selector:
     app: vote
   type: NodePort
