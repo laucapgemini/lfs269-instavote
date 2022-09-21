@@ -19,3 +19,14 @@ spec:
       - image: schoolofdevops/vote:v3
         name: vote
         resources: {}
+        env:
+          - name: OPTION_A
+            valueFrom:
+              configMapKeyRef: 
+                name: cm_vote
+                key: OPTION_A
+          - name: OPTION_B
+            valueFrom:
+              configMapKeyRef: 
+                name: cm_vote
+                key: OPTION_B
