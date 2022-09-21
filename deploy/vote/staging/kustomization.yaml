@@ -15,5 +15,5 @@ replicas:
 configMapGenerator:
   - name: cm-vote
     literals:
-      - OPTION_A=STAGING
-      - OPTION_B=DEV
+      - OPTION_A=CAFE
+      - OPTION_B=THE

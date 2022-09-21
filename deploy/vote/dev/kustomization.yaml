@@ -4,3 +4,8 @@ resources:
 - ../base
 patchesStrategicMerge:
 - deployment.yaml
+configMapGenerator:
+  - name: cm-vote
+    literals:
+      - OPTION_A=STAGING
+      - OPTION_B=DEV
