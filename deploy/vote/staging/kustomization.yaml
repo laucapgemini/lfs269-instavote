@@ -13,7 +13,7 @@ replicas:
 - name: vote
   count: 12
 configMapGenerator:
-  - name: cm_vote
+  - name: cm-vote
     literals:
       - OPTION_A=STAGING
       - OPTION_B=DEV

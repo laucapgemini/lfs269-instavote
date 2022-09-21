@@ -17,10 +17,10 @@ spec:
             - name: OPTION_A
               valueFrom:
                 configMapKeyRef: 
-                  name: cm_vote
+                  name: cm-vote
                   key: OPTION_A
             - name: OPTION_B
               valueFrom:
                 configMapKeyRef: 
-                  name: cm_vote
+                  name: cm-vote
                   key: OPTION_B
