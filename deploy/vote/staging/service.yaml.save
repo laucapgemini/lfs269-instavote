@@ -3,15 +3,11 @@ kind: Service
 metadata:
   labels:
     app: vote
-  name: svcvote
+  name: vote
 spec:
   ports:
   - name: "80"
-    nodePort: 30300
+    nodePort: 30200
     port: 80
     protocol: TCP
     targetPort: 80
-  selector:
-    app: vote
-  type: NodePort
-
