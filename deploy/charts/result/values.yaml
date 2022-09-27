@@ -38,6 +38,7 @@ securityContext: {}
 
 service:
   type: NodePort
+  nodePort: 30400
   port: 80
 
 ingress:
