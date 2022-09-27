@@ -7,5 +7,5 @@ patchesStrategicMerge:
 configMapGenerator:
   - name: cm-vote
     literals:
-      - OPTION_A=NONE
+      - OPTION_A=WEBHOOK
       - OPTION_B=DEV
