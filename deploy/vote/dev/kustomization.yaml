@@ -7,5 +7,5 @@ patchesStrategicMerge:
 configMapGenerator:
   - name: cm-vote
     literals:
-      - OPTION_A=STAGING
+      - OPTION_A=NONE
       - OPTION_B=DEV
