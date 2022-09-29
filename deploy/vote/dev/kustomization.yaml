@@ -10,5 +10,5 @@ images:
 configMapGenerator:
   - name: cm-vote
     literals:
-      - OPTION_A=STAGING
+      - OPTION_A=WEBHOOK
       - OPTION_B=DEV
