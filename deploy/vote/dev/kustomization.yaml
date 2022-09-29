@@ -6,7 +6,7 @@ patchesStrategicMerge:
 - deployment.yaml
 images:
 - name: lauroffecapgemini/vote
-  newTag: main-26525d7d-1664461058 # {"$imagepolicy": "flux-system:vote:tag"}
+  newTag: main-a42921bb-1664462735 # {"$imagepolicy": "flux-system:vote:tag"}
 configMapGenerator:
 - name: cm-vote
   literals:
