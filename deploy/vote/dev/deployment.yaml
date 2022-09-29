@@ -11,7 +11,7 @@ spec:
    template:
       spec:
         containers:
-        - image: schoolofdevops/vote:v4
+        - image: lauroffecapgemini/vote:v1
           name: vote
           env:
             - name: OPTION_A
