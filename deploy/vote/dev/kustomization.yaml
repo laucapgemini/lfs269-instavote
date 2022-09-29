@@ -6,7 +6,7 @@ patchesStrategicMerge:
 - deployment.yaml
 images:
 - name: lauroffecapgemini/vote
-  newTag: v8 # {"imagepolicy": "flux-system:vote:tag"}
+  newTag: v8 # {"$imagepolicy": "flux-system:vote:tag"}
 configMapGenerator:
   - name: cm-vote
     literals:
